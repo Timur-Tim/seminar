@@ -79,36 +79,36 @@
 
 // Задача 30: Напишите программу которая выводит массив из 8 элементов заполненный нулями и еденицами в случайном порядке.
 
-int[] array = new int[8];
+// int[] array = new int[8];
 
-void FullArray(int[] collection)
-{
-    int length = 8;
-    int index = 0;
+// void FullArray(int[] collection)
+// {
+//     int length = 8;
+//     int index = 0;
 
-    while (index < length)
-    {
-        collection[index] = new Random().Next(0, 2);
-        index++;
-    }
-}
-// FullArry(array);
+//     while (index < length)
+//     {
+//         collection[index] = new Random().Next(0, 2);
+//         index++;
+//     }
+// }
+// // FullArry(array);
 
-void PrintArray(int[] array)
-{
-    int count = 8;
-    for (int i = 0; i < count; i++)
-    {
-        Console.Write($"{array[i]} ");
-    }
-}
-FullArray(array);
-PrintArray(array);
+// void PrintArray(int[] array)
+// {
+//     int count = 8;
+//     for (int i = 0; i < count; i++)
+//     {
+//         Console.Write($"{array[i]} ");
+//     }
+// }
+// FullArray(array);
+// PrintArray(array);
 
-int p = 0;
-int count = 8;
-for (int i = 0; i < count; i++)
-{
-    if (array[i] == 1) p = p+1;
-}
-Console.WriteLine($"Количесвло едениц в массиве {p}");
+// int p = 0;
+// int count = 8;
+// for (int i = 0; i < count; i++)
+// {
+//     if (array[i] == 1) p = p+1;
+// }
+// Console.WriteLine($"Количесвло едениц в массиве {p}");
