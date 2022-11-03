@@ -33,17 +33,17 @@
 //Задача:  Напишите программу которая на врод принимает координаты двух точек и находит расстояние между ними в 2D пространстве
 
 
-// Console.WriteLine("Введите координаты x точки a");
-// int ax = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите координаты y точки a");
-// int ay = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите координаты x точки b");
-// int bx = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите координаты y точки b");
-// int by = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты x точки a");
+int ax = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты y точки a");
+int ay = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты x точки b");
+int bx = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты y точки b");
+int by = Convert.ToInt32(Console.ReadLine());
 
-// double dist = Math.Sqrt(Math.Pow(ay-ax, 2) + Math.Pow(by-bx, 2));
-// Console.WriteLine($"Расстояние между точками равно {dist}");
+double dist = Math.Sqrt(Math.Pow(ay-ax, 2) + Math.Pow(by-bx, 2));
+Console.WriteLine($"Расстояние между точками равно {dist}");
 
 //Задача:   Напишите программу которая принимает на вход число (N) и выдает таблицу квадратов чисел
 
