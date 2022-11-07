@@ -1,8 +1,8 @@
-﻿// // Console.WriteLine("Введите целое число");
-// // int n = Convert.ToInt32(Console.ReadLine());
-// // int sum = 0;
-// // for (int i = 1; i <= n; i++) sum = sum + i;
-// // Console.WriteLine($"Сумма всех чисел от 1 до {n} равна {sum}");
+﻿// Console.WriteLine("Введите целое число");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int sum = 0;
+// for (int i = 1; i <= n; i++) sum = sum + i;
+// Console.WriteLine($"Сумма всех чисел от 1 до {n} равна {sum}");
 
 // void SumNumber (int x)
 // {
@@ -12,17 +12,17 @@
 //     Console.WriteLine($"Сумма всех чисел от 1 до {x} равна {sum}");
 // }
 
-// // int SumNumber2 (int x)
-// // {
-// //     int sum = 0;
-// //     for (int i = 1; i <= x; i++) 
-// //         sum = sum + i;
-// //     return sum;
-// // }
+// int SumNumber2 (int x)
+// {
+//     int sum = 0;
+//     for (int i = 1; i <= x; i++) 
+//         sum = sum + i;
+//     return sum;
+// }
 
 // Console.WriteLine("Введите целое число");
 // int n = Convert.ToInt32(Console.ReadLine());
-// // SumNumber(n);
+// SumNumber(n);
 // Console.WriteLine(SumNumber2(n));
 
 
@@ -54,6 +54,7 @@
 // Console.WriteLine("Введите целое число");
 // int x = Convert.ToInt32(Console.ReadLine());
 // SumNumber(x);
+
 // решение через логорифм     
 // Console.WriteLine("Введите целое число");
 // int x = Convert.ToInt32(Console.ReadLine());
