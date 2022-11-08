@@ -89,3 +89,27 @@
 
 
 // Задача 35: Задайте одномерный массив из 13 случайных чисел от 0 до 100. Найдите количество элементов массива, значения которых лежат в отрезке [40,99]. 
+// int[] CreateFillArray() 
+ 
+// { 
+//     int[] arr = new int[13]; 
+//     for (int i=0;i<13;i++)  
+//     { 
+//         arr[i]= new Random().Next(0,101); 
+//         Console.Write($"{arr[i]} "); 
+//     } 
+//     Console.WriteLine(); 
+//     return arr; 
+// } 
+ 
+// void FindCount(int[] arr) 
+// { 
+//     int count=0; 
+//     foreach (int el in arr) 
+//     { 
+//         if (el>=40 && el<=99) count++; 
+//     } 
+//     Console.WriteLine(count); 
+// } 
+// int [] arr = CreateFillArray(); 
+// FindCount(arr);
